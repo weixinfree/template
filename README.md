@@ -1,11 +1,9 @@
 ### 基于代码生成的简单模板引擎
 
-```python
-'''
-inner template
-'''
 
-TMPL_BUILDER = '''\
+#### 模板语法 
+
+```sh
 
 %{fields = jclass.fields}%
 
@@ -37,12 +35,14 @@ public static class Builder {
         return new {{jclass.name}}(this);
     }
 }
-'''
+```
 
+#### 测试代码
+
+```python
 '''
 interface 
 '''
-
 
 def test_template():
     class Obj:
