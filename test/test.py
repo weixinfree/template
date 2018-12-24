@@ -1,4 +1,4 @@
-from template import Template
+from simpletemplate import Template
 
 '''
 inner template

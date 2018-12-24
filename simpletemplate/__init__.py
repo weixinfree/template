@@ -4,6 +4,7 @@ import functools
 import itertools
 import os
 import re
+import math
 from functools import lru_cache
 from typing import Sequence, Tuple
 
@@ -17,7 +18,8 @@ BUILT_IN_ENV = {
     'os': os,
     're': re,
     'itertools': itertools,
-    'functools': functools
+    'functools': functools,
+    'math': math
 }
 
 

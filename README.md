@@ -1,5 +1,16 @@
 ### 基于代码生成的简单模板引擎
 
+### install
+
+```sh
+pip3 install simpletemplate
+```
+
+```python
+from simpletemplate import Template
+
+Template("Hello, {{name}}!").render({'name': 'world'})
+```
 
 #### 模板语法 
 
